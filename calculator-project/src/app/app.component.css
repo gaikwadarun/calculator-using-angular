@@ -1,0 +1,42 @@
+.calculator{
+    background-color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   justify-content: space-between;
+   align-items:center;
+   width: 200px;
+   height: 300px;
+   border-radius: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.ab{
+    margin: 10px;
+   display: flex;
+   column-gap: 10px;
+ 
+}   
+
+button{
+    width: 35px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: green;
+    opacity:1;
+ 
+   
+
+}
+#ab{
+    height: 30px;
+    width: 170px;
+    border-radius: 10px solid green;
+}

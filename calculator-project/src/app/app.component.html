@@ -1,0 +1,41 @@
+
+
+
+<div class="calculator">
+     <div  class="ab"> <input id="ab" type="text" placeholder=" AC" [(ngModel)]="currentValue"></div>
+
+    <div  class="ab">
+        <button value="1" (click)="addValue(1)">1</button>
+        <button value="2" (click)="addValue(2)">2</button>
+        <button value="3" (click)="addValue(4)">3</button>
+        <button value="4" (click)="addValue(3)">4</button>
+      </div>
+      
+
+    <div class="ab">
+        <button value="5" (click)="addValue(5)">5</button>
+        <button value="6" (click)="addValue(6)">6</button>
+        <button value="7" (click)="addValue(7)">7</button>
+        <button value="8" (click)="addValue(8)">8</button>
+        </div>
+      <div  class="ab">
+        <button value="9" (click)="addValue(9)">9</button>
+        <button value="0" (click)="addValue(0)">0</button>
+        <button value="." (click)="addValue('.')">.</button>
+        <button value="=" (click)="calculate()">=</button>
+      </div>
+    <div  class="ab">
+        <button value="+" (click)="addValue('+')">+</button>
+        <button value="-" (click)="addValue('-')">-</button>
+        <button value="*" (click)="addValue('*')">*</button>
+        <button value="/" (click)="addValue('/')">/</button>
+      </div>
+    <div  class="ab">
+        <button value="%" (click)="addValue('%')">%</button>
+        <button value="(" (click)="addValue('(')">(</button>
+        <button value=")" (click)="addValue(')')">)</button>
+        <button value="c" (click)="clear()">C</button>
+      </div>
+  
+
+</div>
